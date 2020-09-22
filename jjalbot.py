@@ -70,4 +70,4 @@ async def on_message(message):
     elif message.content.startswith('!도움'):
         await message.channel.send('그딴건 아직 없어요 \n\n 개발자들에게 물어보세요!!')
 
-client.run('NzU3NTg5NTkwODg5NzI2MDUy.X2imSQ.wWddZnDqSJqgeqfjYfQSV5Hato4')
+client.run(open('creds/token').read())

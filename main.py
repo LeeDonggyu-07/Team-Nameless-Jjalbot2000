@@ -10,7 +10,7 @@ bot = commands.Bot(command_prefix='!', status = discord.Status.online, activity 
 
 @bot.event
 async def on_ready():
-    print('We have logged in!')
+    print('Sucessfully logged in!')
 
 
 @bot.command()
@@ -25,7 +25,7 @@ async def 짤(ctx):
     sub, post = redditsc.random()
 
     embed = discord.Embed(
-        title = '레딧에서 온 짤:',
+        title = 'reddit에서 푸슝 하고 날아온 짤:',
         description ='r/'+ sub
     )
     embed.set_image(url=post)

@@ -28,7 +28,7 @@ async def 도움(ctx):
         title= '짤봇2000를 사용하주셔서 감사합니다.',
         colour=discord.Colour(0xE5E242),
 
-        description = '테스트123',
+        description = '**명령어들**\n`짤 :: 랜덤 짤을 불러옵니다. \n `짤 {주제} :: {주제}에 관련한 짤을 불러옵니다.',
     )
     
     await ctx.send(embed=embed)
